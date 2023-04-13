@@ -78,7 +78,7 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "services" },
                   }}
-                >
+                  legacyBehavior>
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Services
                   </a>
@@ -95,7 +95,7 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "team" },
                   }}
-                >
+                  legacyBehavior>
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Team
                   </a>
@@ -112,7 +112,7 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "products" },
                   }}
-                >
+                  legacyBehavior>
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Products
                   </a>
@@ -129,7 +129,7 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "contact" },
                   }}
-                >
+                  legacyBehavior>
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Contact
                   </a>

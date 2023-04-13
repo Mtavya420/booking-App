@@ -19,7 +19,7 @@ export default function Buttons(props) {
           pathname: "/",
           query: { id: "services" },
         }}
-      >
+        legacyBehavior>
         <a>
           <button
             className={`border ${
