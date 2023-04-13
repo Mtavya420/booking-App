@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Backdrop from "../Backdrop";
 import React from "react";
 export default function CovidPolicy() {
@@ -37,7 +37,10 @@ export default function CovidPolicy() {
                 width={597}
                 height={657}
                 quality={75}
-              />
+                style={{
+                  maxWidth: "100%",
+                  height: "auto"
+                }} />
             </div>
             <span
               className="absolute cursor-pointer right-0 top-0 text-3xl"

@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 export default function TeamMember(props) {
   return (
     <div
@@ -13,7 +13,10 @@ export default function TeamMember(props) {
           width={223}
           height={250}
           loading={"eager"}
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto"
+          }} />
       </div>
 
       <p

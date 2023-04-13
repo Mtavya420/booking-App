@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 export default function Products() {
   const [brand, setBrandOpen] = React.useState(false);
@@ -47,7 +47,10 @@ export default function Products() {
               height={426}
               quality={75}
               loading={"eager"}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
           <hr className="block sm:block md:hidden lg:hidden" />
         </div>
@@ -94,7 +97,10 @@ export default function Products() {
               height={426}
               quality={75}
               loading={"eager"}
-            />
+              style={{
+                maxWidth: "100%",
+                height: "auto"
+              }} />
           </div>
         </div>
       </div>

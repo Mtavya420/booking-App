@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Button from "../Button";
 
 export default function Hairdreams(props) {
@@ -11,12 +11,15 @@ export default function Hairdreams(props) {
         <Image
           width={590}
           height={436}
-          layout="responsive"
           loading={"eager"}
           priority={true}
           src={"/hairdreams.png"}
           alt="Hairdreams"
-        />
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto"
+          }} />
       </div>
 
       <div className="flex-1 px-6 py-10">
