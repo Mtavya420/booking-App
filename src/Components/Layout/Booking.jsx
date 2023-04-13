@@ -20,7 +20,7 @@ export default function Booking(props) {
             <p>
               Welcome to Tete-a-Tete Cut & Color Group. All first-time visitors,
               please call the salon at{" "}
-              <a href="tel:617-559-0660" className="font-bold">
+              <a href="tel:010-9539-9012" className="font-bold">
                 617-559-0660{" "}
               </a>
               in order for us to properly assess your service needs and provide

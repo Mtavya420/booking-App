@@ -9,8 +9,8 @@ export default function Phone() {
         <source type="image/png" srcSet="phone.png" />
         <img src="/phone.png" alt="Phone" className="w-6 h-6 mr-2" />
       </picture>
-      <a href="tel:617-559-0660">
-        <span className="font-bold">Call us</span> 617-559-0660
+      <a href="tel:010-9539-9012">
+        <span className="font-bold">Call us</span> 010-9539-9012
       </a>
     </div>
   );

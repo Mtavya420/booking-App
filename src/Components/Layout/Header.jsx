@@ -49,7 +49,7 @@ export default function Header(props) {
               <span
                 className={`${textLogo} logo-transition font-logo uppercase sm:text-4xl text-2xl xl:leading-4 lg:leading-4 md:leading-normal leading-relaxed inline-block mr-4 py-3 whitespace-no-wrap text-white`}
               >
-                Tête-à-Tête
+                Elkpro Cut
               </span>
             </a>
             <button

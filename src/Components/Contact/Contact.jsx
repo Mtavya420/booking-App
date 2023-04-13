@@ -21,9 +21,9 @@ export default function Contact() {
             </picture>
             <div className="col-span-4">
               <p className="inline">
-                <b>Tête‑à‑Tête Salon </b>
+                <b>Elkpro-Cut Salon </b>
                 <br />
-                765 Beacon Street, Newton Centre, MA 02459
+                765-26 Hannam-dong, Yongsan-gu, Seoul
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function Contact() {
               <img src="phone-contact.png" alt="Phone" />
             </picture>
             <div className="col-span-4">
-              <p className="inline">(617) 559‑0660</p>
+              <p className="inline"> 010-9539-9012</p>
             </div>
           </div>
           {/* hours */}

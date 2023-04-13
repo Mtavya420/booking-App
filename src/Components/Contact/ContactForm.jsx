@@ -96,7 +96,7 @@ export default function ContactForm() {
               className="w-full py-1 px-4"
               type="text"
               id="phone"
-              placeholder="***-***-****"
+              placeholder="***-****-****"
               name="phone"
               value={values.phone}
               onChange={handleChange}
