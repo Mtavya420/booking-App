@@ -18,11 +18,11 @@ export default function Layout({ children, props }) {
   return (
     <div className="overflow-y-hidden overflow-x-hidden relative">
       <Head>
-        <title>Tete-a-Tete Salon</title>
+        <title>Elkpro Cut</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Tete-a-Tete hair salon in Newton, MA, 02459"
+          content="Foreign barber shop in Seoul,South Korea"
         />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

@@ -1,7 +1,6 @@
 import React from "react";
 import WelcomeCarousel from "../components/Carousel";
 import Services from "../components/Services/ServiceMenu";
-import Team from "../components/Team/Team";
 import Products from "../components/Products";
 import Contact from "../components/Contact/Contact";
 import ContactForm from "../components/Contact/ContactForm";
@@ -9,11 +8,9 @@ import Layout from "../components/Layout/Layout";
 import ScrollButton from "../components/ScrollButton";
 import smoothscroll from "smoothscroll-polyfill";
 import { useRouter } from "next/router";
-import Giftcard from "@/components/Layout/Giftcard";
 import useDocumentScrollThrottled from "@/components/Hooks/useDocumentScrollThrottled";
 
 export default function Home() {
-  const [giftcardFixed, setGiftcardFixed] = React.useState(false);
 
   const router = useRouter();
   // refs
@@ -50,7 +47,6 @@ export default function Home() {
   };
   useDocumentScrollThrottled((callbackData) => {
     const { currentScrollTop } = callbackData;
-    setGiftcardFixed(currentScrollTop > 600);
   });
   return (
     <Layout>
@@ -67,7 +63,7 @@ export default function Home() {
         </div>
         <div className="relative">
           <div ref={teamRef} className="absolute" style={{ top: "-170px" }} />
-          <Team />
+          
         </div>
         <div className="relative">
           <div
@@ -86,7 +82,7 @@ export default function Home() {
           <Contact />
         </div>
         <ContactForm />
-        <Giftcard position={giftcardFixed} />
+    
       </div>
       <ScrollButton />
     </Layout>

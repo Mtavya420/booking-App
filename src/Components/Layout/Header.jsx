@@ -93,23 +93,6 @@ export default function Header(props) {
                   scroll={false}
                   href={{
                     pathname: "/",
-                    query: { id: "team" },
-                  }}
-                  legacyBehavior>
-                  <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
-                    Team
-                  </a>
-                </Link>
-
-                <hr />
-              </li>
-
-              <li className="nav-item">
-                <Link
-                  passHref={true}
-                  scroll={false}
-                  href={{
-                    pathname: "/",
                     query: { id: "products" },
                   }}
                   legacyBehavior>

@@ -18,10 +18,10 @@ export default function Booking(props) {
           <div className="flex gap-4 flex-col py-6 px-8 content">
             <p className="font-bold">First-Time Clients</p>
             <p>
-              Welcome to Tete-a-Tete Cut & Color Group. All first-time visitors,
-              please call the salon at{" "}
+              Welcome to Clkpro Cut. All first-time visitors, please call the
+              salon at{" "}
               <a href="tel:010-9539-9012" className="font-bold">
-                617-559-0660{" "}
+                010-9539-9012{" "}
               </a>
               in order for us to properly assess your service needs and provide
               the best possible stylist.
