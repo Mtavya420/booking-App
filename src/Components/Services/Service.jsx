@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 import ServicesMap from "./ServicesMap";
 import HandyInfo from "./HandyInfo";
 import Buttons from "../../components/Buttons";
-import Refferal from "./Refferal";
+
 import NavMap from "./ServicesNavMap";
 import React from "react";
 export default function Service(props) {
@@ -104,7 +104,7 @@ export default function Service(props) {
                 ></img>
               </div>
             </div>
-            {isMobile ? <Refferal mobile={isMobile} /> : <Buttons />}
+          
           </div>
           <HandyInfo />
         </div>

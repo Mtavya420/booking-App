@@ -47,7 +47,7 @@ export default function Map() {
             <Marker position={center}>
               <InfoWindow position={center}>
                 <div style={divStyle}>
-                  <h1 className="text-2xl bold" style={{ color: "#895B4A" }}>
+                  <h1 className="text-2xl bold" style={{ color: "#0074D9" }}>
                     <a href="https://www.google.com/maps/dir//Tete+A+Tete+Salon,+Beacon+Street,+Newton,+MA/@42.3306046,-71.2623209,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e37882776a3071:0xb80e093582119c54!2m2!1d-71.192109!2d42.330626?hl=en">
                       "Tête-à-Tête"
                     </a>

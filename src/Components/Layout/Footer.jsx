@@ -12,7 +12,7 @@ export default function Footer() {
       <style jsx>{`
         footer {
           height: 9.625rem;
-          background: rgba(96, 90, 90, 0.89);
+          background: #0074D9;
           color: white;
           width: 100%;
           font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

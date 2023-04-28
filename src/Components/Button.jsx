@@ -10,7 +10,7 @@ export default function Button(props) {
       </button>
       <style jsx>{`
         button {
-          background-color: #895b4a;
+          background-color: #0074D9;
           border-radius: 1rem;
           color: white;
           font-weight: bold;

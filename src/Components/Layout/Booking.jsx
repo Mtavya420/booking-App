@@ -18,42 +18,29 @@ export default function Booking(props) {
           <div className="flex gap-4 flex-col py-6 px-8 content">
             <p className="font-bold">First-Time Clients</p>
             <p>
-              Welcome to Clkpro Cut. All first-time visitors, please call the
-              salon at{" "}
+              Welcome to Elkpro Cut. If you are a new customer, please call us
+              at{" "}
               <a href="tel:010-9539-9012" className="font-bold">
                 010-9539-9012{" "}
               </a>
-              in order for us to properly assess your service needs and provide
-              the best possible stylist.
+              so that we can better understand your needs and assign you the
+              best barber.
             </p>
-            <p className="font-bold">Returning Clients</p>
-            <p>Welcome back. Important to remember:</p>
-            <ol className="list-decimal	px-6">
-              <li>
-                Schedule any color/chemical services before a haircut or
-                blow-dry.
-              </li>
-              <li>
-                In order to book an appointment for extensions, straightening
-                treatments, or permanent wave, we require a credit card on file.
-              </li>
-            </ol>
             <p className="font-bold">Appointment Cancellations</p>
             <p>
-              We require 24 hours advance notice to cancel or reschedule any
-              service. Otherwise, you will be charged 100% of the total
-              estimated service, and a credit card will be required to book
-              future appointments.
+              We require at least 2 hours advance notice to cancel or reschedule
+              any service. If you fail to provide us with the required notice,
+              you will be charged 100% of the total estimated service cost.
             </p>
             <p className="font-bold">Methods of Payment</p>
             <p>
-              We accept all major credit cards and cash. Regretfully, gratuity
-              cannot be charged to the credit card.
+              Payment can be made via money transfer or cash upon arrival for
+              your appointment.
             </p>
             <p className="font-bold">Children</p>
             <p>
-              For the safety and comfort of our guests we cannot accommodate
-              children without adult supervision.
+              For the comfort and safety of all our customers, children must be
+              accompanied by an adult.
             </p>
           </div>
           <div className="border-t-2">
@@ -61,10 +48,10 @@ export default function Booking(props) {
               className="contents "
               target="_blank"
               rel="noopener noreferrer"
-              href="https://login.meevo.com/teteatete/ob?locationId=106145"
+              href="https://elkpro.netlify.app/new-booking"
             >
               <button className="block mx-auto hover:opacity-75 shadow-lg my-3">
-                Book Online{" "}
+                Book Now{" "}
               </button>
             </a>
           </div>
@@ -77,7 +64,7 @@ export default function Booking(props) {
       />
       <style jsx>{`
         button {
-          background-color: #895b4a;
+          background-color: #0074d9;
           border-radius: 1rem;
           padding: 0.8rem 3rem;
           color: white;

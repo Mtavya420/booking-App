@@ -38,13 +38,15 @@ export default function Header(props) {
               }
             >
               <picture>
-                <source type="image/webp" srcSet="logo.webp" />
-                <source type="image/png" srcSet="logo.png" />
+                {/* <source type="image/webp" srcSet="logo.webp" /> */}
+                <source type="image/png" srcSet="ElkproLogo.png" />
                 <img
-                  src="/logo.png"
+                  src="/ElkproLogo.png"
                   alt="Logo"
                   className={`${logo} hover:opacity-75 logo-transition`}
                 />
+                
+                
               </picture>
               <span
                 className={`${textLogo} logo-transition font-logo uppercase sm:text-4xl text-2xl xl:leading-4 lg:leading-4 md:leading-normal leading-relaxed inline-block mr-4 py-3 whitespace-no-wrap text-white`}
@@ -78,7 +80,8 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "services" },
                   }}
-                  legacyBehavior>
+                  legacyBehavior
+                >
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Services
                   </a>
@@ -95,7 +98,8 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "products" },
                   }}
-                  legacyBehavior>
+                  legacyBehavior
+                >
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Products
                   </a>
@@ -112,7 +116,8 @@ export default function Header(props) {
                     pathname: "/",
                     query: { id: "contact" },
                   }}
-                  legacyBehavior>
+                  legacyBehavior
+                >
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
                     Contact
                   </a>
@@ -136,7 +141,7 @@ export default function Header(props) {
           font-weight: 600;
         }
         .navbar-bg {
-          background-color: #706d6c;
+          background-color: #0074d9;
         }
         .font-logo {
           font-family: "News Cycle", sans-serif;
@@ -157,7 +162,7 @@ export default function Header(props) {
           transition: all 0.5s;
         }
         #example-navbar-danger {
-          background-color: #716c6c;
+          background-color: #0074d9;
         }
         hr {
           display: none;

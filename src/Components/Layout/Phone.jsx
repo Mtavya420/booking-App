@@ -2,7 +2,7 @@ export default function Phone() {
   return (
     <div
       className="flex justify-center py-2"
-      style={{ backgroundColor: "#DACCBA", color: "#4D4949" }}
+      style={{ backgroundColor: "#ADD8F6", color: "#4D4949" }}
     >
       <picture>
         <source type="image/webp" srcSet="phone.webp" />

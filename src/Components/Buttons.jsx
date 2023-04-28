@@ -17,7 +17,7 @@ export default function Buttons(props) {
             className={`border ${
               props.mobile ? "ml-3" : "ml-24"
             } py-2 px-3 hover:opacity-75`}
-            style={{ color: "#895b4a" }}
+            style={{ color: "#0074D9" }}
           >
             See other services
           </button>
@@ -25,7 +25,7 @@ export default function Buttons(props) {
       </Link>
       <style jsx>{`
         button {
-          border-color: #895b4a;
+          border-color: #0074D9;
           border-radius: 15px;
           font-weight: bold;
           font-size: 16px;
