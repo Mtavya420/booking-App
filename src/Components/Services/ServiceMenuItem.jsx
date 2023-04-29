@@ -6,6 +6,7 @@ export default function ServiceMenuItem(props) {
         backgroundImage: `url(https://res.cloudinary.com/dyj6lkekg/image/upload/tete/${props.background}.png)`,
       }}
     >
+   
       <p className="absolute background-box px-10 py-2.5">{props.service}</p>
       <style jsx>{`
         .background-box {

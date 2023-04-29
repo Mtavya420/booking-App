@@ -47,7 +47,7 @@ export default function ContactForm() {
       <div className="mx-auto lg:w-1/2 sm:w-3/4 w-11/12">
         <p className="italic text-gray-500 text-sm mb-4">
           Please do not change or cancel appointments over email. To modify your
-          appointment call salon directly at 617-559-0660
+          appointment call salon directly at 010-9539-9012
         </p>
         <form
           action="sumbit"

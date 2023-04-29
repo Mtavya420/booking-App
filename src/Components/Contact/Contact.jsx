@@ -46,13 +46,13 @@ export default function Contact() {
             <div className="col-span-4 leading-relaxed">
               <p className="font-bold">Hours of Operation:</p>
               <p className="pt-3">
-                Monday: 9am - 5pm <br />
-                Tuesday: 8am - 8pm <br />
-                Wednesday: 8am - 5pm <br />
-                Thursday: 8am - 8pm <br />
-                Friday: 8am - 5pm <br />
-                Saturday: 8am - 4pm <br />
-                Sunday: Closed
+                Monday: 9am - 10pm <br />
+                Tuesday: 9am - 10pm <br />
+                Wednesday: 9am - 10pm <br />
+                Thursday: 9am - 11pm <br />
+                Friday: 9am - 11pm <br />
+                Saturday: 9am - 11pm <br />
+                Sunday: 10am - 11pm <br />
               </p>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Contact() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.instagram.com/teteateteccg/"
+                href="https://www.instagram.com/elkpro_cut/"
                 className="contents"
               >
                 <picture>
@@ -100,7 +100,7 @@ export default function Contact() {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.facebook.com/TeteATeteSalon"
+                href="https://www.facebook.com/elkpro_cut"
                 className="contents"
               >
                 <picture>

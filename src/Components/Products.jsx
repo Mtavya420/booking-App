@@ -24,7 +24,7 @@ export default function Products() {
                 className="w-10 mr-2 inline-block"
               />
             </picture>
-            <h2 className="inline-block">Top brands</h2>
+            {/* <h2 className="inline-block">Top brands</h2> */}
             <picture>
               <source type="image/webp" srcSet="arrow.webp" />
               <source type="image/png" srcSet="arrow.png" />
@@ -42,7 +42,7 @@ export default function Products() {
           >
     
             <Image
-              src="https://res.cloudinary.com/dyj6lkekg/image/upload/tete/top-brands.png"
+              src="/priceList.png"
               alt="Top brands"
               width={604}
               height={426}
