@@ -8,27 +8,18 @@ export default function Services() {
       <SectionTitle title={"Our Services"} />
       <div className="grid lg:grid-rows-2 grid-rows-1 lg:grid-flow-col justify-center gap-6">
         <Link href="#" passHref>
-
-          <Service service={"Royalty HairCut 👑"} background={"haircare"} />
-
+          <Service serviceName={"Royalty HairCut 👑"} imageName={"cust1"} />
         </Link>
         <Link href="#" passHref>
-
-          <Service service={"Hair Dye"} background={"skincare"} />
-
+          <Service serviceName={"Hair Dye"} imageName={"cust2"} />
         </Link>
         <Link href="#" passHref>
-
-          <Service service={"HairCut Design"} background={"nails"} />
-
+          <Service serviceName={"HairCut Design"} imageName={"cust3"} />
         </Link>
         <Link href="#" passHref>
-
-          <Service service={"Beard & Line up"} background={"waxing"} />
-
+          <Service serviceName={"Beard & Line up"} imageName={"cust4"} />
         </Link>
       </div>
-   
     </div>
   );
 }
