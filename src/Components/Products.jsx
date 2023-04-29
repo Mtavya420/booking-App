@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 
 export default function Products() {
@@ -49,6 +49,8 @@ export default function Products() {
               quality={75}
               loading={"eager"}
               style={{
+                maxWidth: "100%",
+                height: "auto",
                 maxWidth: "100%",
                 height: "auto"
               }} />

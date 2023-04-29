@@ -1,13 +1,13 @@
 import styled from "@emotion/styled";
-import Image from "next/legacy/image";
+import Image from "next/image";
 export default function ServiceMenuItem({ imageName, serviceName }) {
   return (
     <ServiceBox className="relative rounded shadow-lg flex justify-center">
       <Image
         src={`/images/${imageName}.jpeg`}
         alt={serviceName + "image"}
-        layout="fill"
-      />
+        fill
+        sizes="100vw" />
       <BackgroundBox className="absolute background-box px-10 py-2.5">
         {serviceName}
       </BackgroundBox>

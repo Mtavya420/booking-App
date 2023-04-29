@@ -1,6 +1,6 @@
 import Buttons from "../../components/Buttons";
 import Refferal from "./Refferal";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Backdrop from "../../components/Backdrop";
 import React from "react";
 export default function ServicesMap(props) {
@@ -135,6 +135,8 @@ export default function ServicesMap(props) {
           loading={"eager"}
           priority={true}
           style={{
+            maxWidth: "100%",
+            height: "auto",
             maxWidth: "100%",
             height: "auto"
           }} />

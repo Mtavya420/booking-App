@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import Image from "next/legacy/image";
+import Image from "next/image";
 export default function WelcomeCarousel() {
   const createCarouselItemImage = (index, options = {}) => (
     <div key={index} style={{ width: "max-content", height: "400px" }}>
@@ -13,6 +13,8 @@ export default function WelcomeCarousel() {
         quality={75}
         loading={"eager"}
         style={{
+          maxWidth: "100%",
+          height: "auto",
           maxWidth: "100%",
           height: "auto"
         }} />
