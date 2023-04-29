@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Backdrop from "../Backdrop";
 import React from "react";
 export default function Booking(props) {

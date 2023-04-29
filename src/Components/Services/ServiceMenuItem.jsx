@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import Image from "next/image";
+import Image from "next/legacy/image";
 export default function ServiceMenuItem({ imageName, serviceName }) {
   return (
     <ServiceBox className="relative rounded shadow-lg flex justify-center">
