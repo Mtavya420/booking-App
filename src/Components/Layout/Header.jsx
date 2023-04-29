@@ -9,11 +9,11 @@ export default function Header(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
 
   // Resize navbar on scroll //
-  const [showMiniNav, setShowMiniNav] = React.useState(false);
-  useDocumentScrollThrottled((callbackData) => {
-    const { currentScrollTop } = callbackData;
-    setShowMiniNav(currentScrollTop > 100);
-  });
+  const [showMiniNav, setShowMiniNav] = React.useState(true);
+  // useDocumentScrollThrottled((callbackData) => {
+  //   const { currentScrollTop } = callbackData;
+  //   setShowMiniNav(currentScrollTop > 100);
+  // });
   const header = showMiniNav ? "nav-small" : "nav-full";
   const logo = showMiniNav ? "w-0" : "logo";
   const textLogo = showMiniNav ? "font-logo" : "hidden";
@@ -37,17 +37,18 @@ export default function Header(props) {
                 })
               }
             >
-              <picture>
+              <>
                 {/* <source type="image/webp" srcSet="logo.webp" /> */}
-                <source type="image/png" srcSet="ElkproLogo.png" />
-                <img
-                  src="/ElkproLogo.png"
-                  alt="Logo"
-                  className={`${logo} hover:opacity-75 logo-transition`}
-                />
-                
-                
-              </picture>
+                {/* <picture>
+                  <source type="image/png" srcSet="ElkproLogo.png" />
+                  <img
+                    src="/ElkproLogo.png"
+                    alt="Logo"
+                    className={`${logo} hover:opacity-75 logo-transition`}
+                  />
+                </picture> */}
+              </>
+
               <span
                 className={`${textLogo} logo-transition font-logo uppercase sm:text-4xl text-2xl xl:leading-4 lg:leading-4 md:leading-normal leading-relaxed inline-block mr-4 py-3 whitespace-no-wrap text-white`}
               >
@@ -101,7 +102,7 @@ export default function Header(props) {
                   legacyBehavior
                 >
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
-                    Products
+                    Pricing
                   </a>
                 </Link>
 
@@ -119,7 +120,7 @@ export default function Header(props) {
                   legacyBehavior
                 >
                   <a className="cursor-pointer px-3 py-4 lg:py-2 xl:py-2 flex items-center text-lg leading-snug text-white hover:opacity-75">
-                    Contact
+                    Location
                   </a>
                 </Link>
               </li>

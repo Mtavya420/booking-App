@@ -1,17 +1,16 @@
 import React from "react";
-import WelcomeCarousel from "../components/Carousel";
-import Services from "../components/Services/ServiceMenu";
-import Products from "../components/Products";
-import Contact from "../components/Contact/Contact";
-import ContactForm from "../components/Contact/ContactForm";
-import Layout from "../components/Layout/Layout";
-import ScrollButton from "../components/ScrollButton";
+import WelcomeCarousel from "../Components/Carousel";
+import Services from "../Components/Services/ServiceMenu";
+import Products from "../Components/Products";
+import Contact from "../Components/Contact/Contact";
+import ContactForm from "../Components/Contact/ContactForm";
+import Layout from "../Components/Layout/Layout";
+import ScrollButton from "../Components/ScrollButton";
 import smoothscroll from "smoothscroll-polyfill";
 import { useRouter } from "next/router";
 import useDocumentScrollThrottled from "@/components/Hooks/useDocumentScrollThrottled";
 
 export default function Home() {
-
   const router = useRouter();
   // refs
   const servicesRef = React.useRef(null),
@@ -50,9 +49,9 @@ export default function Home() {
   });
   return (
     <Layout>
-      <WelcomeCarousel />
+      {/* <WelcomeCarousel /> */}
       <div className="content relative">
-        <div className="relative">
+        <div className="relative mt-40">
           <div
             ref={servicesRef}
             className="absolute"
@@ -63,7 +62,6 @@ export default function Home() {
         </div>
         <div className="relative">
           <div ref={teamRef} className="absolute" style={{ top: "-170px" }} />
-          
         </div>
         <div className="relative">
           <div
@@ -81,8 +79,7 @@ export default function Home() {
           />
           <Contact />
         </div>
-        <ContactForm />
-    
+        {/* <ContactForm /> */}
       </div>
       <ScrollButton />
     </Layout>
