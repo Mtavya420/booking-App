@@ -13,8 +13,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 42.330612,
-  lng: -71.192118,
+  lat: 37.531807,
+  lng: 127.001185,
 };
 const divStyle = {
   background: `white`,
@@ -48,8 +48,8 @@ export default function Map() {
               <InfoWindow position={center}>
                 <div style={divStyle}>
                   <h1 className="text-2xl bold" style={{ color: "#0074D9" }}>
-                    <a href="https://www.google.com/maps/dir//Tete+A+Tete+Salon,+Beacon+Street,+Newton,+MA/@42.3306046,-71.2623209,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e37882776a3071:0xb80e093582119c54!2m2!1d-71.192109!2d42.330626?hl=en">
-                      &quot;Tête-à-Tête&quot;
+                    <a href="https://www.google.com/maps/dir//765-26+Hannam-dong,+Yongsan-gu,+Seoul/data=!4m8!4m7!1m0!1m5!1m1!1s0x357ca3b5c071359d:0x27fb0f2712027ce7!2m2!1d127.0011631!2d37.5316287">
+                      &quot;elkpro cut&quot;
                     </a>
                   </h1>
                 </div>
@@ -60,7 +60,7 @@ export default function Map() {
             className="contents"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.google.com/maps/dir//Tete+A+Tete+Salon,+Beacon+Street,+Newton,+MA/@42.3306046,-71.2623209,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x89e37882776a3071:0xb80e093582119c54!2m2!1d-71.192109!2d42.330626?hl=en"
+            href="https://www.google.com/maps/dir//765-26+Hannam-dong,+Yongsan-gu,+Seoul/data=!4m8!4m7!1m0!1m5!1m1!1s0x357ca3b5c071359d:0x27fb0f2712027ce7!2m2!1d127.0011631!2d37.5316287"
           >
             <Button className="ml-auto">Get directions</Button>
           </a>
