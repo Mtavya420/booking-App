@@ -1,4 +1,4 @@
-import SectionTitle from "../../components/SectionTitle";
+import sectionTitle from "../sectionTitle";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import ServicesMap from "./ServicesMap";
@@ -58,7 +58,7 @@ export default function Service(props) {
   return (
     <div>
       <div className="pt-40 mx-auto sm:max-w-90">
-        <SectionTitle title={props.title} showLink={true} isMobile={isMobile} />
+        <sectionTitle title={props.title} showLink={true} isMobile={isMobile} />
         <div className={`${renderNav} mb-12 xl:ml-32 lg:ml-24 buttons`}>
           {mapNavButtons}
         </div>
@@ -104,7 +104,6 @@ export default function Service(props) {
                 ></img>
               </div>
             </div>
-          
           </div>
           <HandyInfo />
         </div>

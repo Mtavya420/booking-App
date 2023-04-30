@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-export default function SectionTitle(props) {
+export default function sectionTitle(props) {
   const router = useRouter();
   return (
     <div className="relative">
@@ -15,7 +15,8 @@ export default function SectionTitle(props) {
           pathname: "/",
           query: { id: "services" },
         }}
-        legacyBehavior>
+        legacyBehavior
+      >
         <a
           style={{ fontSize: "1rem" }}
           className={`text-color font-light italic text underline inline-block absolute bottom-0 cursor-pointer ${

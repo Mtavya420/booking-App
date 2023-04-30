@@ -1,14 +1,14 @@
 import React from "react";
-import SectionTitle from "../../components/SectionTitle";
+import sectionTitle from "../sectionTitle";
 import Map from "./GoogleMap";
 import Reviews from "./Reviews";
 import Backdrop from "../../components/Backdrop";
-// import SectionTitle from "../SectionTitle";
+// import sectionTitle from "../sectionTitle";
 export default function Contact() {
   const [openReview, setOpenReview] = React.useState(false);
   return (
     <div className="container mx-auto md:max-w-90">
-      <SectionTitle title={"Contact"} />
+      <sectionTitle title={"Contact"} />
       {/* contact section grid*/}
       <div className="pt-6 grid grid-row-2 grid-flow-row gap-4 sm:grid-flow-row md:grid-flow-col-row lg:grid-flow-col-dense xl:grid-flow-col md:justify-items-center">
         {/* left side info grid */}

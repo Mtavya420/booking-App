@@ -1,12 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import SectionTitle from "./SectionTitle";
-
+import sectionTitle from "./sectionTitle";
 export default function Products() {
   const [brand, setBrandOpen] = React.useState(false);
   return (
     <div className="container mx-auto max-w-screen-xl products">
-      <SectionTitle title={"Price Lists"} />
+      <sectionTitle title={"Price Lists"} />
       {/* wraper */}
       <div className="flex flex-wrap flex-row justify-center">
         {/* top brands */}
@@ -40,7 +39,6 @@ export default function Products() {
           <div
             className={"lg:block md:block " + (brand ? "block mb-6" : "hidden")}
           >
-    
             <Image
               src="/priceList.png"
               alt="Top brands"
@@ -52,8 +50,9 @@ export default function Products() {
                 maxWidth: "100%",
                 height: "auto",
                 maxWidth: "100%",
-                height: "auto"
-              }} />
+                height: "auto",
+              }}
+            />
           </div>
           <hr className="block sm:block md:hidden lg:hidden" />
         </div>
