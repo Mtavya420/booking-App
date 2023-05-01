@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 const SectionTitle = (props) => {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <div className="relative">
       <h1 className="font-bold text-center text-color text-2xl pt-10 mb-5 mt-7">

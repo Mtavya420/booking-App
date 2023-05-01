@@ -1,6 +1,7 @@
 import Service from "./ServiceMenuItem";
-import SectionTitle from "../../Components/SectionTitle";
+// import SectionTitle from "../../Components/SectionTitle";
 import Link from "next/link";
+import SectionTitle from '../SectionTitle';
 
 export default function Services() {
   return (
@@ -14,10 +15,10 @@ export default function Services() {
           <Service serviceName={"Hair Dye"} imageName={"cust2"} />
         </Link>
         <Link href="#" passHref>
-          <Service serviceName={"HairCut Design"} imageName={"cust3"} />
+          <Service serviceName={"HairCut Design"} imageName={"cust4"} />
         </Link>
         <Link href="#" passHref>
-          <Service serviceName={"Beard & Line up"} imageName={"cust4"} />
+          <Service serviceName={"Beard & Line up"} imageName={"cust3"} />
         </Link>
       </div>
     </div>
