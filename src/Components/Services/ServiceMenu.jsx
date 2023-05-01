@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Services() {
   return (
     <div className="mx-auto">
-      <SectionTitle title={"Our Services"} />
+      <SectionTitle title={"Services"} />
       <div className="grid lg:grid-rows-2 grid-rows-1 lg:grid-flow-col justify-center gap-6">
         <Link href="#" passHref>
           <Service serviceName={"Royalty HairCut 👑"} imageName={"cust1"} />

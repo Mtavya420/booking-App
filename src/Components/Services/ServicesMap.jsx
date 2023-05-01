@@ -1,7 +1,7 @@
-import Buttons from "../../components/Buttons";
+import Buttons from "../../Components/Buttons";
 import Refferal from "./Refferal";
 import Image from "next/image";
-import Backdrop from "../../components/Backdrop";
+import Backdrop from "../../Components/Backdrop";
 import React from "react";
 export default function ServicesMap(props) {
   // importing data

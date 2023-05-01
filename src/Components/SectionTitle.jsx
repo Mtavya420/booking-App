@@ -26,9 +26,11 @@ const SectionTitle = (props) => {
           }`}
         >
           <Image
-            src="left.png"
+            src="/left.png"
             className="w-3 inline-block mr-2"
             alt="Go back to services"
+            width={500}
+            height={500}
           />
           <span>Back to services</span>
         </a>

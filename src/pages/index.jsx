@@ -8,7 +8,7 @@ import Layout from "../Components/Layout/Layout";
 import ScrollButton from "../Components/ScrollButton";
 import smoothscroll from "smoothscroll-polyfill";
 import { useRouter } from "next/router";
-import useDocumentScrollThrottled from "@/components/Hooks/useDocumentScrollThrottled";
+import useDocumentScrollThrottled from "@/Components/Hooks/useDocumentScrollThrottled";
 
 export default function Home() {
   const router = useRouter();

@@ -7,7 +7,7 @@ const Products = () => {
   const [brand, setBrandOpen] = React.useState(false);
   return (
     <div className="container mx-auto max-w-screen-xl products">
-      <SectionTitle title={"Price Lists"} />
+      <SectionTitle title={"Pricing"} />
       {/* wraper */}
       <div className="flex flex-wrap flex-row justify-center">
         {/* top brands */}
@@ -23,6 +23,8 @@ const Products = () => {
                 src="/top-brands-icon.png"
                 alt="Top brands"
                 className="w-10 mr-2 inline-block"
+                width={500}
+                height={500}
               />
             </picture>
             <h2 className="inline-block mt-5 mb-1">Price Lists</h2>

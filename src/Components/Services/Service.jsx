@@ -3,7 +3,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import ServicesMap from "./ServicesMap";
 import HandyInfo from "./HandyInfo";
-import Buttons from "../../components/Buttons";
 
 import NavMap from "./ServicesNavMap";
 import React from "react";
