@@ -1,10 +1,10 @@
 import React from "react";
-// import sectionTitle from "../../Components/sectionTitle";
+// import SectionTitle from "../../Components/SectionTitle";
 import emailjs from "emailjs-com";
 import ContactFormResponse from "./ContactFormResponse";
 import { useForm } from "../../Components/Hooks/useForm";
 import Button from "../Button";
-import sectionTitle from '../sectionTitle';
+import SectionTitle from "../SectionTitle";
 export default function ContactForm() {
   const [showResponse, setShowResponse] = React.useState({
     display: false,
@@ -43,7 +43,7 @@ export default function ContactForm() {
   const responseCode = showResponse.code;
   return (
     <div className="container mx-auto max-w-sm">
-      <sectionTitle title={"Get in touch"} />
+      <SectionTitle title={"Get in touch"} />
 
       <div className="mx-auto lg:w-1/2 sm:w-3/4 w-11/12">
         <p className="italic text-gray-500 text-sm mb-4">

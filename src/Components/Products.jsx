@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import sectionTitle from "./sectionTitle";
 import PriceList from "./PriceList";
-export default function Products() {
+import SectionTitle from "./SectionTitle";
+
+const Products = () => {
   const [brand, setBrandOpen] = React.useState(false);
   return (
     <div className="container mx-auto max-w-screen-xl products">
-      <sectionTitle title={"Price Lists"} />
+      <SectionTitle title={"Price Lists"} />
       {/* wraper */}
       <div className="flex flex-wrap flex-row justify-center">
         {/* top brands */}
@@ -18,7 +19,7 @@ export default function Products() {
             <picture>
               <source type="image/webp" srcSet="top-brands-icon.webp" />
               <source type="image/png" srcSet="top-brands-icon.png" />
-              <img
+              <Image
                 src="/top-brands-icon.png"
                 alt="Top brands"
                 className="w-10 mr-2 inline-block"
@@ -39,9 +40,7 @@ export default function Products() {
           </div>
 
           <div
-            className={
-              "lg:block md:block " + (brand ? "block mb-3" : "hidden")
-            }
+            className={"lg:block md:block " + (brand ? "block mb-3" : "hidden")}
           >
             <PriceList />
           </div>
@@ -67,4 +66,5 @@ export default function Products() {
       `}</style>
     </div>
   );
-}
+};
+export default Products;

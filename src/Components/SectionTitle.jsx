@@ -1,6 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-export default function sectionTitle(props) {
+
+const SectionTitle = (props) => {
   const router = useRouter();
   return (
     <div className="relative">
@@ -23,7 +25,7 @@ export default function sectionTitle(props) {
             props.showLink ? "inline-block" : "hidden"
           }`}
         >
-          <img
+          <Image
             src="left.png"
             className="w-3 inline-block mr-2"
             alt="Go back to services"
@@ -49,4 +51,6 @@ export default function sectionTitle(props) {
       </style>
     </div>
   );
-}
+};
+
+export default SectionTitle;

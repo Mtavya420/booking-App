@@ -1,11 +1,11 @@
 import Service from "./ServiceMenuItem";
-import sectionTitle from "../../components/sectionTitle";
+import SectionTitle from "../../Components/SectionTitle";
 import Link from "next/link";
 
 export default function Services() {
   return (
     <div className="mx-auto">
-      <sectionTitle title={"Our Services"} />
+      <SectionTitle title={"Our Services"} />
       <div className="grid lg:grid-rows-2 grid-rows-1 lg:grid-flow-col justify-center gap-6">
         <Link href="#" passHref>
           <Service serviceName={"Royalty HairCut 👑"} imageName={"cust1"} />

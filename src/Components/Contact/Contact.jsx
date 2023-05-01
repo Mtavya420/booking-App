@@ -1,16 +1,15 @@
 import React from "react";
-import sectionTitle from "../sectionTitle";
+import SectionTitle from "../SectionTitle";
 import Map from "./GoogleMap";
 import Reviews from "./Reviews";
 // import Backdrop from "../../Components/Backdrop";
-import Backdrop from '../Backdrop';
-
+import Backdrop from "../Backdrop";
 
 export default function Contact() {
   const [openReview, setOpenReview] = React.useState(false);
   return (
     <div className="container mx-auto md:max-w-90">
-      <sectionTitle title={"Contact"} />
+      <SectionTitle title={"Contact"} />
       {/* contact section grid*/}
       <div className="pt-6 grid grid-row-2 grid-flow-row gap-4 sm:grid-flow-row md:grid-flow-col-row lg:grid-flow-col-dense xl:grid-flow-col md:justify-items-center">
         {/* left side info grid */}
