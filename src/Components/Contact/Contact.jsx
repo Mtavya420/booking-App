@@ -2,8 +2,10 @@ import React from "react";
 import sectionTitle from "../sectionTitle";
 import Map from "./GoogleMap";
 import Reviews from "./Reviews";
-import Backdrop from "../../components/Backdrop";
-// import sectionTitle from "../sectionTitle";
+// import Backdrop from "../../Components/Backdrop";
+import Backdrop from '../Backdrop';
+
+
 export default function Contact() {
   const [openReview, setOpenReview] = React.useState(false);
   return (

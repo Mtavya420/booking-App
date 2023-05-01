@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Backdrop from "../Backdrop";
 import React from "react";
+
 export default function Booking(props) {
   return (
     <div className="justify-center flex fixed z-50 inset-x-0">

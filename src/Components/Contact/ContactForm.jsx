@@ -1,9 +1,10 @@
 import React from "react";
-import sectionTitle from "../../components/sectionTitle";
+// import sectionTitle from "../../Components/sectionTitle";
 import emailjs from "emailjs-com";
 import ContactFormResponse from "./ContactFormResponse";
-import { useForm } from "../../components/Hooks/useForm";
+import { useForm } from "../../Components/Hooks/useForm";
 import Button from "../Button";
+import sectionTitle from '../sectionTitle';
 export default function ContactForm() {
   const [showResponse, setShowResponse] = React.useState({
     display: false,
@@ -51,7 +52,7 @@ export default function ContactForm() {
         </p>
         <form
           action="sumbit"
-          className="mx-auto inline-block text-left w-full flex flex-col gap-4 pb-24"
+          className="mx-auto inline-block text-left w-full flex-col gap-4 pb-24"
           autoComplete="on"
           onSubmit={sendEmail}
         >
