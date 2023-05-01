@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 export default function ReviewsItem(props) {
   const { item, index } = props;
@@ -17,7 +18,7 @@ export default function ReviewsItem(props) {
   return (
     <div className="flex mb-4 flex-row" key={index}>
       <div className="flex-shrink-0">
-        <img
+        <Image
           width="50px"
           src={item.profile_photo_url}
           className="mr-4 mt-2"
@@ -34,10 +35,11 @@ export default function ReviewsItem(props) {
           {item.relative_time_description}
         </span>
         <div className="">
-          <img
+          <Image
             width="100px"
             height="20px"
-            src="stars.png"
+            src="/stars.png"
+            alt="reviewItems"
             className="mr-3"
             loading="lazy"
           />

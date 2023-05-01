@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function NavMap(props) {
   return (
     <button
@@ -8,11 +10,14 @@ export default function NavMap(props) {
       } ${props.isMobile ? "block mb-3" : "ml-8"}`}
       onClick={props.clickHandle}
     >
-      <img
+      <Image
         src="arrow-nav-mobile.png"
         style={{ width: "14px", verticalAlign: "middle" }}
         className={`${props.isMobile ? "inline-block" : "hidden"} mr-3`}
+        alt="arrow"
+
       />
+      
       {props.title}
     </button>
   );

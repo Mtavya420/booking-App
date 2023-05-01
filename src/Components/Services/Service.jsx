@@ -6,6 +6,7 @@ import HandyInfo from "./HandyInfo";
 
 import NavMap from "./ServicesNavMap";
 import React from "react";
+import Image from "next/image";
 export default function Service(props) {
   // responsive carousel
   const [isMobile, setIsMobile] = React.useState(false);
@@ -65,14 +66,16 @@ export default function Service(props) {
           <div className="ml-auto md:pr-12 slide-query">
             <div className="flex">
               <div className={`${renderNav} inline-block my-auto min-content`}>
-                <img
+                <Image
                   onClick={prev}
                   className={`w-5 cursor-pointer mr-2 ${
                     currentSlide == 0 ? "invisible" : "inline-block"
                   }`}
-                  src="left.png"
+                  src="/left.png"
                   alt="Prev service"
-                ></img>
+                  width={500}
+                height={500}
+               />
               </div>
               <div className="inline-block mx-auto">
                 <Carousel
@@ -91,7 +94,7 @@ export default function Service(props) {
                 </Carousel>
               </div>
               <div className={`${renderNav} inline-block my-auto min-content`}>
-                <img
+                <Image
                   onClick={next}
                   className={`w-5 cursor-pointer ml-2 ${
                     currentSlide == props.service.length - 1
@@ -100,7 +103,9 @@ export default function Service(props) {
                   }`}
                   src="right.png"
                   alt="Next service"
-                ></img>
+                  width={500}
+                height={500}
+                />
               </div>
             </div>
           </div>

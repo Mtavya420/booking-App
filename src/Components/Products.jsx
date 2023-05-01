@@ -31,12 +31,15 @@ const Products = () => {
             <picture>
               <source type="image/webp" srcSet="arrow.webp" />
               <source type="image/png" srcSet="arrow.png" />
-              <img
-                src="arrow.png"
+              <Image
+                src="/arrow.png"
                 className={
                   "inline-block w-6 ml-4 sm:inline-block md:hidden lg:hidden " +
                   (brand ? "transform rotate-180" : null)
                 }
+                alt="Products"
+                width={500}
+                height={500}
               />
             </picture>
           </div>
