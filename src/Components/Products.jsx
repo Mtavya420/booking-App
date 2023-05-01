@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import sectionTitle from "./sectionTitle";
+import PriceList from "./PriceList";
 export default function Products() {
   const [brand, setBrandOpen] = React.useState(false);
   return (
@@ -23,7 +24,7 @@ export default function Products() {
                 className="w-10 mr-2 inline-block"
               />
             </picture>
-            {/* <h2 className="inline-block">Top brands</h2> */}
+            <h2 className="inline-block mt-5 mb-1">Price Lists</h2>
             <picture>
               <source type="image/webp" srcSet="arrow.webp" />
               <source type="image/png" srcSet="arrow.png" />
@@ -36,23 +37,13 @@ export default function Products() {
               />
             </picture>
           </div>
+
           <div
-            className={"lg:block md:block " + (brand ? "block mb-6" : "hidden")}
+            className={
+              "lg:block md:block " + (brand ? "block mb-3" : "hidden")
+            }
           >
-            <Image
-              src="/priceList.png"
-              alt="Top brands"
-              width={604}
-              height={426}
-              quality={75}
-              loading={"eager"}
-              style={{
-                maxWidth: "100%",
-                height: "auto",
-                maxWidth: "100%",
-                height: "auto",
-              }}
-            />
+            <PriceList />
           </div>
           <hr className="block sm:block md:hidden lg:hidden" />
         </div>
