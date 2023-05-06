@@ -9,6 +9,7 @@ import ScrollButton from "../Components/ScrollButton";
 import smoothscroll from "smoothscroll-polyfill";
 import { useRouter } from "next/router";
 import useDocumentScrollThrottled from "@/Components/Hooks/useDocumentScrollThrottled";
+import IntroMessage from "../Components/Layout/IntroMessage";
 
 export default function Home() {
   const router = useRouter();
@@ -50,8 +51,9 @@ export default function Home() {
   return (
     <Layout>
       {/* <WelcomeCarousel /> */}
+      <IntroMessage/>
       <div className="content relative">
-        <div className="relative mt-40">
+        <div className="relative mt-30">
           <div
             ref={servicesRef}
             className="absolute"

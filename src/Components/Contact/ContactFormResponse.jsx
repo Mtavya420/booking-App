@@ -20,7 +20,7 @@ const ContactFormResponse = (params) => {
           </h2>
           <p>
             {params.responseCode === 200
-              ? "We will get back to you shortly. If you are willing to book, change or cancel the appointment, please call us at (617) 559‑0660."
+              ? "We will get back to you shortly. If you are willing to book, change or cancel the appointment, please call us at 010-9539-9012"
               : "If you are willing to book, change or cancel the appointment, please call us at (617) 559‑0660."}
           </p>
           <picture>

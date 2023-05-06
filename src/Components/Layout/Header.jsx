@@ -1,6 +1,6 @@
 import React from "react";
-import Phone from "./Phone";
-import useDocumentScrollThrottled from "../Hooks/useDocumentScrollThrottled";
+// import Phone from "./Phone";
+// import useDocumentScrollThrottled from "../Hooks/useDocumentScrollThrottled";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import smoothscroll from "smoothscroll-polyfill";
@@ -20,7 +20,8 @@ export default function Header(props) {
   const dropdown = showMiniNav ? "" : "";
   return (
     <div className="fixed z-30 top-0 w-screen">
-      <Phone />
+      {/* <Phone /> */}
+      
       <nav
         className={`relative flex flex-wrap items-center justify-between ${header} px-2 navbar-expand-lg navbar-bg`}
       >
