@@ -12,7 +12,7 @@ const PriceList = () => {
         </thead>
         <tbody>
           <tr className="border-b border-gray-300">
-            <td className="px-4 py-2 text-center">HairCut design & Beard </td>
+            <td className="px-4 py-2 text-center">Haircut design & Beard </td>
             <td className="px-4 py-2 text-center">20,000₩</td>
           </tr>
           <tr className="border-b border-gray-300">
